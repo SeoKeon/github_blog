@@ -2,6 +2,8 @@
 
 로봇 엔지니어 커리어 전환을 위한 기술 블로그/포트폴리오 저장소입니다.
 
+운영 매뉴얼: `BLOG_ADMIN_MANUAL.md`
+
 ## Tech Stack
 
 - GitHub Pages
