@@ -1,0 +1,8 @@
+title: GitHub Blog
+description: Simple blog powered by Jekyll and GitHub Pages.
+theme: minima
+lang: ko-KR
+timezone: Asia/Seoul
+markdown: kramdown
+plugins:
+  - jekyll-feed
