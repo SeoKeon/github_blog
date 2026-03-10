@@ -1,10 +1,63 @@
-title: GitHub Blog
-description: Simple blog powered by Jekyll and GitHub Pages.
-theme: minima
-lang: ko-KR
-timezone: Asia/Seoul
+title: "SeoKeon Robot Engineering Blog"
+description: "Robot math, kinematics, ROS2, control, and project portfolio."
 url: "https://seokeon.github.io"
 baseurl: "/github_blog"
-markdown: kramdown
+lang: "ko-KR"
+timezone: "Asia/Seoul"
+
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+minimal_mistakes_skin: "dark"
+
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /:categories/:title/
+paginate: 7
+paginate_path: /page:num/
+
+author:
+  name: "SeoKeon"
+  bio: "Control engineer transitioning to robotics engineer"
+  location: "Korea"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/SeoKeon"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+      comments: false
+      toc: true
+      toc_sticky: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+
+tag_archive:
+  type: liquid
+  path: /tags/
