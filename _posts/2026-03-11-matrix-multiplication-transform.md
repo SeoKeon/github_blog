@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "행렬곱을 로봇 좌표변환 관점에서 이해하기"
-date: 2026-03-11 08:20:00 +0900
+date: 2026-03-10 08:20:00 +0900
 categories: [Robot Kinematics]
 tags: [matrix, transform, frame]
 ---

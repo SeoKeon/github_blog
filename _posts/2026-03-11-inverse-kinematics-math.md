@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Inverse Kinematics 수학 이해"
-date: 2026-03-11 09:00:00 +0900
+date: 2026-03-10 09:00:00 +0900
 categories: [Robot Kinematics]
 tags: [ik, geometry, manipulator]
 ---

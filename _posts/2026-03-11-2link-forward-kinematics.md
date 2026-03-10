@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "2-link robot arm forward kinematics 구현"
-date: 2026-03-11 08:40:00 +0900
+date: 2026-03-10 08:40:00 +0900
 categories: [Robot Projects]
 tags: [2link, forward-kinematics, python]
 ---

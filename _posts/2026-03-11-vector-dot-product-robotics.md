@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "벡터 내적이 로봇에서 왜 중요한가"
-date: 2026-03-11 08:00:00 +0900
+date: 2026-03-10 08:00:00 +0900
 categories: [Robot Math]
 tags: [vector, dot-product, robotics]
 ---
